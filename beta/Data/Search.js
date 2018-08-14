@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/Topics/Contributing.html'],s:['0','user'],p:[['0',3],['element',14],['lord',40],['serve',18],['your',5]]});

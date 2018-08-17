@@ -28,11 +28,21 @@ writers like you.
 
 ## FlareLint 1.3 (beta)
 
-This is the upcoming FlareLint version, currently in development. If
-you're brave or want to get early access to upcoming new features, try
-this version.
+This is the upcoming FlareLint version, currently in development. 
 
-[Download the installer](https://github.com/flarelint/flarelint/releases/download/1.3/FlareLint_1-3b.zip)
+This version has a completely new way for defining rules. There is no
+need for you to learn Python programming to customize rules. You can
+create and modify rules using a simple, straightforward language.
+
+If you're brave or want to get early access to upcoming new features,
+try this version.
+
+[Download the beta installer](https://github.com/flarelint/flarelint/releases/download/1.3/FlareLint_1-3b.zip)
 
 [FlareLint 1.3 User Guide](beta/index.html)
 
+## Contact the developer
+
+[Email me](mailto:22124737+marcpaq@users.noreply.github.com)
+
+Send me a [pull request](https://help.github.com/articles/about-pull-requests).

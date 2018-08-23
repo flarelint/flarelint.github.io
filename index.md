@@ -1,7 +1,9 @@
 # Welcome to FlareLint
 
+![What do you think of the logo? I drew it myself. Can you tell?](logo.png)
+
 Build [MadCap Flare](https://www.madcapsoftware.com/products/flare/)
-projects faster and most consistently.
+projects faster and more consistently.
 
 FlareLint scans your MadCap Flare project for conformance to your
 rules then generates a report. Use this report to make sure that your
@@ -41,8 +43,8 @@ try this version.
 
 [FlareLint 1.3 User Guide](beta/index.html)
 
-## Contact the developer
+## Support
 
-[Email me](mailto:22124737+marcpaq@users.noreply.github.com)
+Discuss and get announcements on the [mailing list](https://www.freelists.org/list/flarelint).
 
 Send me a [pull request](https://help.github.com/articles/about-pull-requests).

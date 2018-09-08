@@ -5,10 +5,10 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Wildcards</title>
-        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
         <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" />
         <script src="../../Resources/Scripts/custom.modernizr.js">
         </script>
@@ -45,10 +45,10 @@ test: self pre</pre>
             <p>This simplified <code>when</code> section matches any element that contains a double-hyphen then the <code>test</code> section ensures the double-hyphen appears in the only acceptable element, <code>pre</code>.</p>
             <p>Sometimes you can simplify a rule with a wildcard in a <code>test</code> section. For example, if your team does not allow exclamation marks at the end of paragraphs, list items, and table cells, you would write the following <code>when</code> sections:</p><pre xml:space="preserve">when: self p<br />when: self li
 when: self td</pre>
-            <p>To test these elements, you need to write the following corresponding <code>test</code> sections:</p><pre xml:space="preserve">test: not self-ends p "!"<br />test: not self-ends li "!"
+            <p>To test these elements, you could write the following corresponding <code>test</code> sections:</p><pre xml:space="preserve">test: not self-ends p "!"<br />test: not self-ends li "!"
 test: not self-ends td "!"</pre>
-            <p>You can reduce the <code>test</code> sections to a single <code>test</code> section by using the wildcard (“*”):</p><pre xml:space="preserve">test: not self-ends * "!"</pre>
-            <p> The simplified <code>test</code> section matches any of the elements found in the <code>when</code> sections.</p>
+            <p>But you can reduce multiple <code>test</code> sections to a single <code>test</code> section by using the wildcard (“*”):</p><pre xml:space="preserve">test: not self-ends * "!"</pre>
+            <p> The simplified <code>test</code> section applies to any of the matches found by the <code>when</code> sections.</p>
         </div>
     </body>
 </html>

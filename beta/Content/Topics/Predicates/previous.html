@@ -5,10 +5,10 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>previous</title>
-        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
         <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" />
         <script src="../../../Resources/Scripts/custom.modernizr.js">
         </script>
@@ -39,7 +39,10 @@ previous *</pre>
   &lt;li&gt;Kouchibouguac&lt;/li&gt;
 &lt;/ul&gt;
 </pre>
-            <p>For the <code>ul</code> element, the following predicate gives true:</p><pre xml:space="preserve">previous p<br /></pre>
+            <p>For the <code>ul</code> element, the following predicates give true:</p><pre xml:space="preserve">previous p
+before p
+before h1<br /></pre>
+            <p>For the <code>ul</code> element, the following predicate gives false:</p><pre xml:space="preserve">previous h1<br /></pre>
         </div>
     </body>
 </html>

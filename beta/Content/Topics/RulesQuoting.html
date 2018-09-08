@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Comment Section</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Quoting Text</title>
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
         <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
@@ -27,21 +27,18 @@
     </head>
     <body>
         <div class="content">
-            <h1>Comment Section</h1>
-            <p>Contains information, annotations, notes, reminders, and other information for you and other people to read. <span class="VarFlareLint">FlareLint</span> ignores the content of a comment section. The comment is only visible in a rule file, it is not included in a <span class="VarFlareLint">FlareLint</span> report. A comment section is optional. If a rule has a comment section, it must be at the beginning. </p>
-            <p>Example of comment section:</p><pre xml:space="preserve">comment:
-
-This rule checks for the presence of an h1 header. 
-See other rules for checking for the position of 
-the header in the topic body.</pre>
-            <p>Another example of a comment section:</p><pre xml:space="preserve">comment:
-
-Makes sure that headers always start with the 
-product name.
-
-2017/05/20 First version.
-
-2017/06/21 Updated to also match h2 and h3 headers.</pre>
+            <h1>Quoting Text</h1>
+            <p>Some predicates require you to specify some text for an element’s content or an attribute’s value.</p>
+            <p>You can specify text by starting and ending it with straight quotation marks. For example the following predicate gives true for a <code>p</code> element ends with <code>The End</code>:</p><pre xml:space="preserve">self-ends p "The End."</pre>
+            <p>You must quote text on one line; <span class="VarFlareLint">FlareLint</span> does not accept quoted text that contains line endings. However, you can specify a line-ending with the characters “\n”. </p>
+            <p>For example, the following is incorrect:</p><pre xml:space="preserve">"First line.
+Second line."</pre>
+            <p>Instead, you would type the following:</p><pre xml:space="preserve">"First line.\nSecond line."</pre>
+            <p>To quote a straight quotation mark (“"”)in, precede it with a backslash (“\"”).</p>
+            <p>For example, quote the following text:</p><pre xml:space="preserve">"Ideally, I want to define the ideal." -- Plato</pre>
+            <p>You would type the following in a <span class="VarFlareLint">FlareLint</span> rule file:</p><pre xml:space="preserve">"\"Ideally, I want to define the ideal.\" -- Plato"</pre>
+            <p>To specify a backslash (“\”), type it twice. </p>
+            <p>For example, to specify a Windows file path, you type backslash characters twice. To specify C:\Users\tinatwriter you would type the following:</p><pre>"C:\\Users\\tinatwriter"</pre>
         </div>
     </body>
 </html>

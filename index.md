@@ -1,15 +1,17 @@
 # Welcome to FlareLint
 
-![What do you think of the logo? I drew it myself. Can you tell?](logo.png)
+![What do you think of the logo? I drew it myself, can you tell?](logo.png)
 
-Build [MadCap Flare](https://www.madcapsoftware.com/products/flare/)
-projects faster and more consistently.
+FlareLint scans a [MadCap Flare](https://www.madcapsoftware.com/products/flare/)
+project for
+adherence to your style rules then display a report in your preferred
+web browser. It's like picking the lint off your sweater, only more
+fun.  Build projects faster and more consistently.
 
-FlareLint scans your MadCap Flare project for conformance to your
-rules then generates a report. Use this report to make sure that your
-content, and the rest of your project, will give consistent output and
-won't delay production. For example, FlareLint reports when a topic
-does not start with an `h1` element.
+Use the FlareLint report to make sure that your content, and the rest
+of your project, will give consistent output and won't delay
+production. For example, FlareLint reports when a topic does not start
+with an `h1` element.
 
 FlareLint works independently of Flare. It inspects source files in
 Flare projects directly and does not rely on Flare's output. FlareLint
@@ -28,7 +30,7 @@ writers like you.
 
 [FlareLint 1.2 User Guide](stable/index.html)
 
-## FlareLint 1.3 (beta)
+## FlareLint 2.0 (beta)
 
 This is the upcoming FlareLint version, currently in development. 
 
@@ -39,9 +41,9 @@ create and modify rules using a simple, straightforward language.
 If you're brave or want to get early access to upcoming new features,
 try this version.
 
-[Download the beta installer](https://github.com/flarelint/flarelint/releases/download/1.3/FlareLint_1-3b.zip)
+[Download the beta installer](https://github.com/flarelint/flarelint/releases/download/2.0/FlareLint_2.0beta.zip)
 
-[FlareLint 1.3 User Guide](beta/index.html)
+[FlareLint 2.0 User Guide](beta/index.html)
 
 ## Support
 

@@ -5,10 +5,10 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>next</title>
-        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
         <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" />
         <script src="../../../Resources/Scripts/custom.modernizr.js">
         </script>
@@ -30,6 +30,7 @@
             <h1>next</h1><pre xml:space="preserve">next <em>tag</em></pre>
             <p>True when the sibling that immediately follows an element is named <em>tag</em>, false otherwise. </p>
             <p>Use the wildcard (“*”) to match any element tag.</p>
+            <p>This predicate can be used as a point of view.</p>
             <p>For example:</p><pre xml:space="preserve">&lt;h1&gt;New Brunswick Bucket List&lt;/h1&gt;
 &lt;p&gt;Never negate the boundless beauty of these places:&lt;/p&gt;
 &lt;ul&gt;
@@ -38,7 +39,10 @@
   &lt;li&gt;Kouchibouguac&lt;/li&gt;
 &lt;/ul&gt;
 </pre>
-            <p>For the <code>h1</code> element, the following predicate gives true:</p><pre xml:space="preserve">next p<br /></pre>
+            <p>For the <code>h1</code> element, the following predicates give true:</p><pre xml:space="preserve">next p
+after p
+after ul<br /></pre>
+            <p>For the <code>h1</code> element, the following predicate gives false:</p><pre xml:space="preserve">next ul<br /></pre>
         </div>
     </body>
 </html>

@@ -32,7 +32,7 @@ writers like you.
 
 ## FlareLint 2.0 (beta)
 
-*Note: * This is beta release formerly known as FlareLint 1.3.
+*Note:* This is beta release formerly known as FlareLint 1.3.
 
 This is the upcoming FlareLint version, currently in development. 
 

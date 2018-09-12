@@ -49,6 +49,8 @@ try this version.
 
 ## Support
 
-Discuss and get announcements on the [mailing list](https://www.freelists.org/list/flarelint).
+Get support, announcements, and share on the [mailing list](https://www.freelists.org/list/flarelint).
 
-Send me a [pull request](https://help.github.com/articles/about-pull-requests).
+## Development
+
+Get, fork, or request a pull of the FlareLint [source code](https://github.com/flarelint/flarelint).

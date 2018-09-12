@@ -32,6 +32,8 @@ writers like you.
 
 ## FlareLint 2.0 (beta)
 
+*Note: * This is beta release formerly known as FlareLint 1.3.
+
 This is the upcoming FlareLint version, currently in development. 
 
 This version has a completely new way for defining rules. There is no

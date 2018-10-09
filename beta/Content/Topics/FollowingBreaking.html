@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en" xml:lang="en" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="[%=System.LinkedTitle%]">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Following and Breaking Rules</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Following and Breaking Rules</h1>
+            <p><span class="VarFlareLint">FlareLint</span> applies all its rules to each file in a Flare project. Either the file follows a rule, breaks a rule, or a rule is not applicable to the file. </p>
+            <p><span class="VarFlareLint">FlareLint</span> adds a rule’s message to the report only when a file breaks the rule.</p>
+            <p>A file <em>follows</em> a rule when it meets all these requirements:</p>
+            <ul>
+                <li value="1">The file’s name has an extension specified in the rule’s <code>extensions</code> section.</li>
+                <li value="2">The file has an element for which the <code>when</code> section is true. If the rule has more than one <code>when</code> section, FlareLint selects the element specified by the first <code>when</code> section that is true in the rule.</li>
+                <li value="3">The <code>test</code> section gives true for the selected element. If a rule has more than one <code>test</code> section, FlareLint stops at the first true <code>test</code> section.</li>
+            </ul>
+            <p>A file <em>breaks</em> a rule, and reports the rule’s message, when it meets all these requirements:</p>
+            <ul>
+                <li value="1">The file’s name has an extension specified in the rule’s <code>extensions</code> section.</li>
+                <li value="2">The file has an element for which the <code>when</code> section is true. If the rule has more than one <code>when</code> section, FlareLint selects the element specified by the first <code>when</code> section that is true.</li>
+                <li value="3">The <code>test</code> section gives false for the selected element. If the rule has more than one <code>test</code> section, all <code>test</code> sections must give false.</li>
+            </ul>
+            <p>A rule is <em>not applicable</em> to a file when it meets at least one of these requirements:</p>
+            <ul>
+                <li value="1">The file’s name has an extension that is not specified in the rule’s <code>extensions</code> section.</li>
+                <li value="2">There are no elements in the file for which the <code>when</code> section is true. If a rule has more than one <code>when</code> section, FlareLint stops when all <code>when</code> sections give false.</li>
+            </ul>
+        </div>
+    </body>
+</html>

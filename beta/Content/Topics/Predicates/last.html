@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>pov-style</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>pov-last</title>
         <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
         <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
         <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
@@ -27,19 +27,27 @@
     </head>
     <body>
         <div class="content">
-            <h1><em>pov</em>-style</h1><pre xml:space="preserve"><em>pov</em>-style <em>tag</em>
-<em>pov</em>-style <em>tag</em>.<em>class</em>
-<em>pov</em>-style .<em>class</em></pre>
-            <p>True when the element's tag and its class attribute are <em>tag</em> and <em>class</em>, respectively. This predicate uses a similar format to the Style Picker and Styles window in Flare. In these windows, the name after a period (.) is the <code>class</code> attribute in the element's XML.</p>
-            <p>If <em>tag</em> is not specified, then it is ignored. If <em>class</em> is not specified then it matches only an empty class attribute.</p>
+            <h1><em>pov</em>-last</h1><pre xml:space="preserve"><em>pov</em>-last <em>tag</em>
+<em>pov</em>-last *</pre>
+            <p>True when an element <em>tag</em> is the last child among its siblings. The sibling elements do not have to be the same. </p>
+            <p>Use the wildcard (“*”) to match any element tag.</p>
             <p>The point of view, <em>pov</em> may be one of the following: <code>after</code>, <code>ancestor</code>, <code>before</code>, <code>child</code>, <code>descendant</code>, <code>next</code>, <code>parent</code>, <code>previous</code>, and <code>self</code>.</p>
-            <p>For example, when scanning this element</p><pre xml:space="preserve">&lt;p class="Note"&gt;...&lt;/p&gt;</pre>
-            <p>these predicates each give a true result:</p><pre xml:space="preserve">self-style p.Note
-self-style .Note</pre>
-            <p>and this predicate gives false:</p><pre xml:space="preserve">self-style p</pre>
-            <p>Alternately, with this element:</p><pre xml:space="preserve">&lt;p&gt;...&lt;/p&gt;</pre>
-            <p>this predicate gives false:</p><pre xml:space="preserve">self-style p.Note</pre>
-            <p>and this predicate gives true:</p><pre xml:space="preserve">self-style p</pre>
+            <p>This predicate ignores descendants of children. For example:</p><pre xml:space="preserve">&lt;body&gt;
+  &lt;h1&gt;Cities with Airport Train Stations&lt;/h1&gt;
+  &lt;p&gt;The best way to get to an airport is by train:&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Barcelona&lt;/li&gt;
+    &lt;li&gt;Paris&lt;/li&gt;
+    &lt;li&gt;New York&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/body&gt;
+</pre>
+            <p>For the <code>body</code> element, the following gives true:</p><pre xml:space="preserve">child-last ul</pre>
+            <p>For the <code>p</code> element, the following gives true:</p><pre xml:space="preserve">after-last ul</pre>
+            <p>For the <code>li</code> element containing “New York”, the following gives true:</p><pre xml:space="preserve">self-last li</pre>
+            <p>For the <code>li</code> element containing “Barcelona”, the following give false:</p><pre xml:space="preserve">self-last li
+after-last li
+next-last li</pre>
         </div>
     </body>
 </html>

@@ -43,7 +43,7 @@ create and modify rules using a simple, straightforward language.
 If you're brave or want to get early access to upcoming new features,
 try this version.
 
-[Download the beta installer](https://github.com/flarelint/flarelint/releases/download/2.0/FlareLint_2.0beta.zip)
+[Download the beta installer](https://github.com/flarelint/flarelint/releases/download/2.0/FlareLint_2.0.zip)
 
 [FlareLint 2.0 User Guide](beta/index.html)
 

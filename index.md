@@ -39,11 +39,12 @@ This is the upcoming FlareLint version, currently in development.
 This version has a completely new way for defining rules. There is no
 need for you to learn Python programming to customize rules. You can
 create and modify rules using a simple, straightforward language.
+[More details](beta/index.html#Topics/WhatsNew.html)
 
 If you're brave or want to get early access to upcoming new features,
 try this version.
 
-[Download the beta installer](https://github.com/flarelint/flarelint/releases/download/2.0/FlareLint_2.0.zip)
+[Download the beta installer](https://github.com/flarelint/flarelint/releases/download/2.0/FlareLint-2.0.zip)
 
 [FlareLint 2.0 User Guide](beta/index.html)
 

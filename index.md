@@ -4,7 +4,7 @@
 
 FlareLint scans a [MadCap Flare](https://www.madcapsoftware.com/products/flare/)
 project for
-adherence to your style rules then display a report in your preferred
+adherence to your style rules then displays a report in your preferred
 web browser. It's like picking the lint off your sweater, only more
 fun.  Build projects faster and more consistently.
 

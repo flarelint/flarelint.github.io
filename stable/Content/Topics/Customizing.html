@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en" xml:lang="en" class="no-feedback" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en" xml:lang="en" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Customizing and Distributing</title>
-        <link href="../Resources/TableStyles/Standard.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
         <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
         <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Standard.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
         <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
         </script>
         <script src="../../Resources/Scripts/plugins.min.js">
         </script>
@@ -41,7 +53,7 @@
                     </tr>
                     <tr class="Body-Body1">
                         <td class="BodyE-Column1-Body1">
-                            <p><code>README.txt</code> <![CDATA[ ]]></p>
+                            <p><code>README.txt</code> </p>
                         </td>
                         <td class="BodyD-Column1-Body1">
                             <p>Introductory text.</p>
@@ -49,7 +61,7 @@
                     </tr>
                     <tr class="Body-Body1">
                         <td class="BodyE-Column1-Body1">
-                            <p><code>LICENSE.txt</code> <![CDATA[ ]]></p>
+                            <p><code>LICENSE.txt</code> </p>
                         </td>
                         <td class="BodyD-Column1-Body1">
                             <p>The full text of the Common Development and Distribution License Version 1.0 (CDDL-1.0).</p>
@@ -57,15 +69,15 @@
                     </tr>
                     <tr class="Body-Body1">
                         <td class="BodyE-Column1-Body1">
-                            <p><code>build.py</code> <![CDATA[ ]]></p>
+                            <p><code>build.py</code> </p>
                         </td>
                         <td class="BodyD-Column1-Body1">
-                            <p>Python module to build this user guide, build the Python <span class="VarFlareLint">FlareLint</span> package, and bundle them into the <span class="VarFlareLint">FlareLint</span> installer, <code><span class="VarFlareLint">FlareLint</span>.zip</code>.</p>
+                            <p>Python module to build this user guide, build the Python <span class="VarFlareLint">FlareLint</span> package, and bundle them into the <span class="VarFlareLint">FlareLint</span> installer, <span class="VarInstaller">FlareLint_2-0b.zip</span>.</p>
                         </td>
                     </tr>
                     <tr class="Body-Body1">
                         <td class="BodyE-Column1-Body1">
-                            <p><code>setup.py</code> <![CDATA[ ]]></p>
+                            <p><code>setup.py</code> </p>
                         </td>
                         <td class="BodyD-Column1-Body1">
                             <p>Python module that specifies the parameters for building the Python&#160;<span class="VarFlareLint">FlareLint</span> package.</p>
@@ -89,7 +101,7 @@
                     </tr>
                     <tr class="Body-Body1">
                         <td class="BodyB-Column1-Body1"><code>flarelint\rules</code> folder</td>
-                        <td class="BodyA-Column1-Body1">Source files for the default rules that <span class="VarFlareLint">FlareLint</span> installs in your personal rules folder, <code><span class="VarPersonalRuleFolder">%APPDATA%\FlareLint</span></code>.</td>
+                        <td class="BodyA-Column1-Body1">Source files for the default rules that <span class="VarFlareLint">FlareLint</span> installs when your personal rules folder is empty. Your personal rules file is <code><span class="VarPersonalRuleFolder">%APPDATA%\FlareLint</span></code>.</td>
                     </tr>
                 </tbody>
             </table>

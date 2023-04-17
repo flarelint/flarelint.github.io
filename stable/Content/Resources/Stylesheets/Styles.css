@@ -1,5 +1,7 @@
 /*<meta />*/
 
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
 /* Reset adapted from http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -207,18 +209,13 @@ pre
 	background-color: #f0f0f0;
 }
 
-pre
-{
-	margin-left: 1em;
-}
-
-.Task
+.task
 {
 	font-weight: bold;
 	color: black;
 }
 
-.Admonishment
+.admonishment
 {
 	font-weight: bold;
 }
@@ -246,5 +243,10 @@ div.content
 MadCap|xref
 {
 	mc-format: '{paratext}';
+}
+
+.external::after
+{
+	content: url('../../Images/external-link-ltr-icon.png');
 }
 

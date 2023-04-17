@@ -20,28 +20,22 @@ to open a project in Flare or build a Flare target before using
 FlareLint.
 
 
-## FlareLint 2.0 (beta)
+## FlareLint 2.0 (stable)
 
-*Note:* This is beta release formerly known as FlareLint 1.3.
-
-This is the upcoming FlareLint version, currently in development. 
+*Note:* This is the official version of FlareLint, ready to use for
+the ordinary tech writer.
 
 This version has a completely new way for defining rules. There is no
 need for you to learn Python programming to customize rules. You can
-create and modify rules using a simple, straightforward language.
+create and modify rules using a simple, straightforward language. (You
+still need to Python to install and run the Flarelint app.)
 [More details](beta/index.html#Topics/WhatsNew.html)
 
-For early access to upcoming new features, try this version.
-
-[Download the beta installer](https://github.com/flarelint/flarelint/releases/download/2.0/FlareLint-2.0.zip)
+[Download the installer](https://github.com/flarelint/flarelint/releases/download/2.0/FlareLint-2.0.zip)
 
 [FlareLint 2.0 User Guide](beta/index.html)
 
-## FlareLint 1.2 (stable)
-
-This is the official version of FlareLint, ready to use for the
-ordinary tech writer. It's feature-complete and tested by real tech
-writers like you.
+## FlareLint 1.2
 
 [Download the installer](https://github.com/flarelint/flarelint/releases/download/1.2/FlareLint-1.2.zip)
 

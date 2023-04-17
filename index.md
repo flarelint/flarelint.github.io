@@ -29,17 +29,17 @@ This version has a completely new way for defining rules. There is no
 need for you to learn Python programming to customize rules. You can
 create and modify rules using a simple, straightforward language. (You
 still need to Python to install and run the Flarelint app.)
-[More details](beta/index.html#Topics/WhatsNew.html)
+[More details](stable/index.html#Topics/WhatsNew.html)
 
 [Download the installer](https://github.com/flarelint/flarelint/releases/download/2.0/FlareLint-2.0.zip)
 
-[FlareLint 2.0 User Guide](beta/index.html)
+[FlareLint 2.0 User Guide](stable/index.html)
 
-## FlareLint 1.2
+## FlareLint 1.2 (previous release)
 
 [Download the installer](https://github.com/flarelint/flarelint/releases/download/1.2/FlareLint-1.2.zip)
 
-[FlareLint 1.2 User Guide](stable/index.html)
+[FlareLint 1.2 User Guide](oldstable/index.html)
 
 
 
